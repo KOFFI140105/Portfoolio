@@ -31,9 +31,9 @@ function onClick() {
   skillList.classList.toggle("hidden");
 
   if (skillList.classList.contains("hidden")) {
-    skillBtn.textContent = "Show Skills";
+    skillBtn.textContent = "Compétences en spectacle";
   } else {
-    skillBtn.textContent = "Hide Skills";
+    skillBtn.textContent = "Compétences de dissimulation";
   }
 }
 document.addEventListener("DOMContentLoaded", function() {
